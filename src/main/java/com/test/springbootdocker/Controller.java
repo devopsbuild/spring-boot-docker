@@ -10,6 +10,6 @@ public class Controller {
 
     @GetMapping("/test")
     public String test(){
-        return "Spring boot inside docker container";
+        return "Spring Boot inside docker container";
     }
 }
